@@ -1,0 +1,1059 @@
+/* css样式重置 */
+*{
+	margin:0;
+	padding:0;
+	font-family: 微软雅黑;
+	font-size:14px;
+	color:#666;
+}
+a{
+	text-decoration: none;
+	color:#666;
+	font-size: 12px;
+}
+body{
+	background-color:#f9f9f9;
+}
+/* 顶部样式 */
+#top{
+	background-color:#f2f2f2;
+}
+.main{
+	width:1200px;
+	margin:0 auto;
+	line-height:26px;
+}
+#top .main .left{
+	float:left;
+}
+#top .main .right{
+	float:right;
+}
+.clear:after{
+	content:"";
+	display: block;
+	clear:both;
+}
+#top .right .ceo{
+	color:#c00;
+}
+#top .right .shouji{
+	background-color:#c00;
+	color:#fff;
+	padding:0 5px;
+	border-radius: 3px;
+}
+#top .right .cart{
+	width:15px;
+	height:15px;
+	background: url('img/public-24.png') no-repeat -18px 4px;
+	padding-left: 15px;
+}
+#top .right .phone{
+	width:15px;
+	height:15px;
+	background: url('../img/public-24.png') no-repeat -62px 3px;
+	padding-left: 15px;
+}
+#top .right .web{
+	width:15px;
+	height:15px;
+	background: url('../img/public-24.png') no-repeat -80px 3px;
+	padding-left: 15px;
+}
+#top .right .kefu{
+	width:15px;
+	height:15px;
+	background: url('../img/public-24.png') no-repeat -90px -260px;
+	padding-left: 15px;
+}
+#top .right .myjiu span{
+	float: left;
+}
+#top .right .jiuxian{
+	width:15px;
+	height:15px;
+	background: url('../img/public-24.png') no-repeat -99px 8px;
+	margin-left:3px;
+	margin-top:4px;
+	float: left;
+}
+#top .left span,#top .left a{
+	margin-right:3px;
+}
+#top .right span,#top .right a{
+	margin-left:2px;
+}
+#top .banner img{
+	display: block;
+}
+#top .banner{
+	overflow: hidden;
+}
+#top .right .jiuxiandown{
+	position:absolute;
+	width: 80px;
+	background-color: #fff;
+	display: none;
+}
+#top .right .jiuxiandown ul{
+	list-style:none;
+}
+#top .right .myjiu{
+	cursor:pointer;
+	width:80px;
+	float: left;
+}
+#top #shouji:hover{
+	text-decoration: underline;
+}
+#top .header{
+	height:125px;
+	line-height:125px;
+	background:url('../img/857d5b63bd0141f09343547cf025f584.jpg') no-repeat -290px 0;
+}
+#top .header .mid-header{
+	float:left;
+}
+#top .header .logo{
+	margin-top: 30px;
+	height:65px;
+}
+#top .header .ads{
+	margin-top:32px;
+	margin-left:15px;
+	height:65px;
+}
+#top .header .search{
+	margin-top:33px;
+	margin-left:25px;
+	width:540px;
+	height:65px;
+}
+#top .header .youhui{
+	margin-top:35px;
+	height:65px;
+	float: right;
+}
+#top .header .search-top{
+	height:32px;
+	border:3px solid #c00;
+	position: relative;
+	z-index:1;
+}
+#top .header .search-top .search-form{
+	width:439px;
+	height:22px;
+	padding:5px;
+	line-height:22px;
+	border:none 0;
+	color:#666;
+	outline-style: none;
+}
+#top .header .search-top .search-btn{
+	width:85px;
+	height:33px;
+	line-height:33px;
+	text-align: center;
+	border:0;
+	font-size:16px;
+	cursor: pointer;
+	float: right;
+	color:white;
+	background-color:#c00;
+	outline-style: none;
+	margin-top:-1px;
+}
+#top .header .search-footer{
+	width:540px;
+	height:25px;
+	padding-top:5px;
+	overflow:hidden;
+}
+#top .header .search-footer ul{
+	list-style: none;
+}
+#top .header .search-footer ul li{
+	float:left;
+	margin-right:10px;
+}
+
+/*左侧导航*/
+.ppt{
+	height:34px;
+	background: #900;
+}
+.ppt .div1{
+	height:34px;
+	overflow: hidden;
+	background: #900;
+}
+.ppt .div1 ul{
+	width:1200px;
+	margin:0 auto;
+	list-style:none;
+}
+.ppt .div1 ul li{
+	float: left;
+	line-height: 34px;
+	padding:0 15px;
+	cursor: pointer;
+	color:#fff;
+	position:relative;
+}
+.ppt .div1 ul li:hover:not(:first-child){
+	background:#B40C10;
+}
+.ppt .banner{
+	background: #ce171f;
+	width:150px;
+	text-align: center;
+	margin-left:0px!important;
+	padding:0!important;
+}
+.nav{
+	width:1200px;
+	margin:0 auto;
+}
+.nav .div2{
+	width:1200px;
+	height:470px;
+	margin:0 auto;
+	position: relative;
+}
+.nav .div3{
+	width:150px;
+	height:470px;
+	float: left;
+	box-sizing: border-box;
+	background: #fff;
+	border-left:1px solid #ccc;
+	border-bottom:1px solid #ccc;
+}
+.nav .div3 ul{
+	list-style:none;
+}
+.nav .div3 ul li{
+	padding-left:15px;
+	line-height: 30px;
+	height:80px;
+	border-bottom:1px solid #ccc;
+}
+.ppt .div3 ul li:last-child{
+	padding-left:15px;
+	line-height: 30px;
+	border-bottom:none;
+}
+.nav1{
+	display: inline-block;
+	width:14px;
+	height:20px;
+	background: #f00;
+	margin-right:10px;
+	vertical-align: middle;
+	background: url('../img/public-24.png') -73px -260px;
+}
+
+.nav2{
+	display: inline-block;
+	width:14px;
+	height:20px;
+	background: #f00;
+	margin-right:10px;
+	vertical-align: middle;
+	background: url('../img/public-24.png') 2px -100px;
+}
+
+.nav3{
+	display: inline-block;
+	width:14px;
+	height:20px;
+	background: #f00;
+	margin-right:10px;
+	vertical-align: middle;
+	background: url('../img/public-24.png') -16px -102px;
+}
+
+.nav4{
+	display: inline-block;
+	width:14px;
+	height:20px;
+	background: #f00;
+	margin-right:10px;
+	vertical-align: middle;
+	background: url('../img/public-24.png') -37px -100px;
+}
+.menu .div3 li.left-menu:hover{
+	border-left:2px solid #CE171F;
+}
+.nav .div3 ul li:hover{
+	cursor: pointer;
+}
+.nav .menu p{
+	height:24px;
+	line-height:24px;
+}
+.nav .menu a{
+	font-size:12px;
+}
+#right-nav p a:hover{
+	color:#f00;
+}
+.nav  .haojiu{
+	background:#f90;
+	color:white;
+	padding:1px;
+	border-radius:3px;
+}
+.nav .div1 img{
+	width:120px;
+	margin-left:50px;
+} 
+.nav .div1 .publicIcon{
+	background:url('../img/public-24.png') no-repeat;
+}
+.nav .div1 .hot{
+	background-position:0 -264px;
+	display: block;
+	font-size:0;
+	height:17px;
+	line-height:0px;
+	position:absolute;
+	right:6px;
+	top:-3px;
+	width:29px;
+	z-index:6;
+}
+.nav .menu .right{
+	width:640px;
+	height:470px;
+	background: #eee;
+	position: absolute;
+	top:0px;
+	left:150px;
+	color:#000;
+	display: none;
+	z-index:2;
+}
+.nav .div3 .right-left{
+	width:400px;
+	height:470px;
+	padding-top:0px;
+	padding-bottom:0px;
+	padding-left:0px;
+	padding-right:20px;
+	float: left;
+	background: #fff;
+	position: relative;
+}
+.nav .div3 .right-left .active{
+	margin-right:30px;
+}
+.nav .div3 .right-left a{
+	margin-right:15px;
+}
+.nav .div3 .right-right{
+	width:220px;
+	height:470px;
+	float: right;
+}
+.nav .div3 .right-right img{
+	display: block;
+}
+.nav .menuItemTitle{
+	float: left;
+	width:80px;
+	text-align: center;
+}
+.nav .menuItemCon{
+	float: left;
+	width:300px;
+	border-bottom:1px dotted #ccc;
+	margin-left:40px;
+}
+.nav .menuItemCon a{
+	display: inline-block;
+	word-wrap:break-word;
+}
+.nav .menuBottom{
+	width:80px;
+	height:470px;
+	background: #eee;
+	float: left;
+	position: absolute;
+}
+.nav .menuRight{
+	position: absolute;
+	z-index:1;
+}
+.nav .menu .menuItem{
+	margin-top:10px;
+}
+.nav .menu .menuItemCon p{
+	height:30px;
+	line-height:20px;
+	margin-top:5px;
+}
+/*轮播图样式*/
+.nav-main .carousel{
+	height:470px;
+	box-sizing: border-box;
+	width:1050px;
+	float: right;
+	background: #aaf;
+	position: relative;
+}
+.navppt .carousel .window {  
+    height:470px;   
+    width: 1050px;  
+    overflow: hidden; /*--Hides anything outside of the set width/height--*/  
+    position: relative;  
+} 
+.navppt .carousel .image_reel {  
+    position: absolute;  
+    top: 0; left: 0;  
+}
+.navppt .carousel .image_reel img {float: left;}  
+/*--Paging Styles--*/  
+.navppt .carousel .paging {  
+    position: absolute;
+    width: 150px; 
+    height:50px;  
+    bottom: 0px; 
+    right: 50%;  
+    margin-right:30px;
+    z-index: 1; /*--Assures the paging stays on the top layer--*/  
+    text-align: center;  
+    line-height: 40px;  
+    display: none; /*--Hidden by default, will be later shown with jQuery--*/  
+}
+.navppt .carousel .paging a {  
+    padding: 0px 5px;  
+    text-decoration: none;  
+    color: white;  
+	background: #000;
+	box-shadow: 0 0 3px;
+	opacity: 0.8;
+    border-radius: 50%;  
+	opacity:0.9;
+	margin-left:5px;
+}
+.navppt .carousel .paging a.active {  
+    font-weight: bold;  
+    background:#0aa1ed;  
+    border-radius: 50%;  
+    opacity:1;
+    color:#fff;
+}
+.navppt .carousel .paging a:hover {
+	font-weight: bold;
+}
+.navppt .paging a{
+	border-radius:50%;
+}
+.right-ads{
+	position: absolute;
+	top:0px;
+	right:0px;
+	width:190px;
+	height:470px;
+}
+.right-ads .img{
+	margin-bottom:1px;
+	display: none;
+}
+.right-ads img{
+	display: block;
+}
+.right-ads img:hover{
+	background:#fff;
+	cursor:pointer;
+}
+.content{
+	margin-top:10px;
+}
+.indexTabBox{
+	float: left;
+	height:500px;
+	width:920px;
+}
+.indexTabBoxTop{
+	height:41px;	
+}
+.indexTabBoxTop ul{
+	list-style:none;
+}
+.indexTabBoxTop ul li{
+	float: left;
+	width:183px;
+	line-height: 38px;
+	color:#666;
+	font-size:16px;
+	text-align: center;
+	background: #f9f9f9;
+	border:1px solid #ececec;
+	border-top-width:2px;
+}
+.indexTabBoxTop ul li.active{
+	background: #fff;
+	cursor: pointer;
+	color:#c00;
+	border-top-color:#c00;
+	border-bottom:none;
+}
+.indexTabBoxTop .n5{
+	width:178px;
+}
+.indexTabBoxBottom{
+	height:460px;
+	background: #fff;
+	overflow: hidden;	
+}
+.indexTabBoxBottom .indexTabCon{
+	width:910px;
+	height:442px;
+	margin:0px 4px;
+	padding:10px 0px;
+	display: none;
+}
+.indexTabBoxBottom .indexTabCon ul{
+	list-style:none;
+}
+.indexTabBoxBottom .indexTabCon ul li{
+	float: left;
+	width:182px;
+	margin-top:14px;
+}
+.indexTabBoxBottom .indexTabCon .indexTabPic{
+	width:160px;
+	padding:0 11px;
+	position: relative;
+}
+.indexTabBoxBottom .indexTabCon .indexTabTit .zhenxuan{
+	float:left;
+	width:72px;
+	height:16px;
+	background:url(http://misc.jiuxian.com/images/zhenxuan.jpg);
+	margin-right:5px;
+}
+.indexTabBoxBottom .indexTabCon .indexTabPrice p{
+	color:#f00;
+}
+.indexTabBoxBottom .Tag{
+	width:45px;
+	height:55px;
+	position: absolute;
+	top:0px;
+	right:0px;
+	background: url('http://misc.jiuxian.com/img/newIndexImg/TagBg.png') no-repeat;
+	text-align: center;
+}
+.indexTabBoxBottom .Tag{
+	font-size: 12px;
+}
+.indexTabBoxBottom .Tag span{
+	line-height: 14px;
+	display: inline-block;
+	color:#fff;
+	width:43px;
+	height:28px;
+	font-size: 12px;
+	margin-top:7px;
+}
+.indexTabBoxBottom .indexTabTit{
+	width:170px;
+	height:18px;
+	line-height: 18px;
+	white-space:nowrap;
+	overflow: hidden;
+	text-overflow:ellipsis;
+}
+.indexTabBoxBottom .indexTabTit a{
+	font-size: 12px;
+}
+.indexTabBoxBottom .indexTabTit a:hover{
+	text-decoration: underline;
+	color:#f00;
+}
+.indexTabBoxBottom .indexTabPrice{
+	color:#c00;
+}
+/* 右侧公告栏 */
+.indexTabRight{
+	float: right;
+	height:500px;
+	width:270px;
+}
+.indexTabNew{
+	height:140px;
+}
+.indexTuanBox{
+	height:157px;
+	margin-top:10px;
+	background: #ccc;
+}
+.indexAdFocus{
+	margin-top:10px;
+	height:178px;
+	background: #ccc;
+}
+.indexTabRight .indexTabNewNav{
+	height:35px;
+}
+.indexTabRight .indexTabNewNav ul{
+	list-style: none;
+}
+.indexTabRight .indexTabNewNav ul li{
+	float: left;
+	width:133px;
+	height:38px;
+	text-align: center;
+	border:1px solid #ececec;
+	border-top-width:2px;
+	font-size:16px;
+	line-height: 38px;
+	color:#666;
+	background: #f9f9f9;
+	cursor: pointer;
+}
+.indexTabRight .indexTabNewNav  ul li.active{
+	background: #fff;
+	cursor: pointer;
+	color:#c00;
+	border-top-color:#c00;
+	border-bottom-color:transparent;
+}
+.indexTabRight .indexTabNewCon{
+	height:105px;
+	background: #fff;
+	display: none;
+}
+.indexTabRight .indexTabNewCon ul{
+	list-style: none;
+}
+.indexTabRight .indexTabNewCon ul li{
+	float: left;
+	box-sizing: border-box;
+	width:135px;
+	text-align: center;
+	line-height: 28px;
+	margin-top:5px;
+}
+.indexTabRight .indexTabNewCon ul li a:hover{
+	text-decoration: underline;
+	color:#c66;
+}
+/* 右侧的第一个幻灯片 */
+.indexTuanBox .carousel{
+	width: 270px;  
+	height:157px; 
+position: relative;
+}
+.indexTuanBox .carousel .window {  
+	width:270px;
+	height:157px;
+    overflow: hidden;
+    position: relative;  
+}
+.indexTuanBox .carousel  .window .image_reel {  
+	position: absolute;  
+	top: 0; 
+	left: 0;  
+}
+.indexTuanBox .carousel  .image_reel img {
+	float: left;
+}
+.indexTuanBox  .carousel .paging{  
+	position: absolute;  
+	width: 100px; 
+	height:40px;  
+	right: 0px; 
+	bottom: 0px;  
+	z-index: 100;
+	text-align: center;  
+	line-height: 40px;  
+	display: none;
+}
+.indexTuanBox  .carousel .paging a {  
+	padding: 0px 5px;  
+	text-decoration: none;  
+	color: #fff;  
+	background: #eee;
+	border-radius: 50%;  
+	opacity:0.9;
+	color:#000;
+} 
+.indexTuanBox  .carousel .paging a.active {  
+	font-weight: bold;  
+	background: #6D81AE;  
+	border-radius: 50%;  
+	opacity:1;
+	color:#fff;
+}  
+.indexTuanBox  .carousel .paging a:hover {
+font-weight: bold;
+}
+/*右侧上方第二个幻灯片*/
+.indexAdFocus .carousel{
+	width: 270px;  
+	height:178px; 
+position: relative;
+}
+
+.indexAdFocus .carousel .window {  
+width:100%;
+height:100%;
+	overflow: hidden;
+	position: relative;  
+}  
+.indexAdFocus .carousel  .window .image_reel {  
+	position: absolute;  
+	top: 0; 
+	left: 0;  
+}  
+.indexAdFocus .carousel  .image_reel img {
+float: left;
+}  
+ 
+.indexAdFocus  .carousel .paging{  
+	position: absolute;  
+	width: 100px; 
+	height:40px;  
+	right: 0px; 
+	bottom: 0px;  
+	z-index: 100;
+	text-align: center;  
+	line-height: 40px;  
+	display: none;
+}  
+.indexAdFocus  .carousel .paging a {  
+	padding: 0px 5px;  
+	text-decoration: none;  
+	color: #fff;  
+	background: #eee;
+	border-radius: 50%;  
+	opacity:0.9;
+	color:#000;
+}  
+.indexAdFocus  .carousel .paging a.active {  
+	background: #6D81AE;   
+	border-radius: 50%;  
+	opacity:1;
+	color:#fff;
+}  
+.indexAdFocus  .carousel .paging a:hover {
+font-weight: bold;
+}
+.middle-banner{
+	background:#fff;
+	display: flex;
+	margin-top:20px;
+	justify-content: space-around;
+}
+/* 优惠推荐 */
+.home_youhui{
+	margin-top:30px;
+	margin-bottom:30px;
+}
+.titlebox{
+	height:40px;
+	line-height:40px;
+	background:#f9f9f9;
+	padding:0 3px;
+}
+.titlebox .title_2{
+	margin:10px 0 0 0;
+	float: left;
+	height:20px;
+	line-height: 20px;
+	font-size:0;
+}
+.home_youhui .title_2 i{
+	background-image:url(http://misc.jiuxian.com/img/newIndexImg/newIndexIcon-24.png);
+	background-repeat:no-repeat;
+	background-position:0 0;
+	width:20px;
+	height:20px;
+	display: inline-block;
+	vertical-align: middle;
+}
+.title_2 span{
+	display: inline-block;
+	vertical-align: middle;
+	font-size:17px;
+	color:#333;
+	font-family: 微软雅黑;
+	margin-left:10px;
+}
+.titlebox .rightNavBox{
+	float:right;
+	display: block;
+	height:20px;
+	margin-top:20px;
+	font-size:0;
+	line-height:0;
+}
+.titlebox .rightNavBox .on{
+	background:#c00;
+}
+.titlebox .rightNavBox span{
+	display: inline-block;
+	vertical-align: middle;
+	width:9px;
+	height:9px;
+	overflow:hidden;
+	margin-left:14px;
+	cursor:pointer;
+	background-color:#ccc;
+}
+.listWrap{
+	height:257px;
+	/* border:1px solid #ececec; */
+	background-color:#fff;
+	position:relative;
+	margin-top:2px;
+	overflow:hidden;
+}
+.listWrap .newIndexIcon{
+	background: url(http://misc.jiuxian.com/img/newIndexImg/newIndexIcon-24.png) no-repeat;
+	display: block;
+	width:27px;
+	height:56px;
+	top:100px;
+	position:absolute;
+	cursor:pointer;
+	z-index:100;
+}
+.listWrap .raceLeft{
+	background-position:0 -28px;
+	left:0px;
+}
+.listWrap .raceRight{
+	background-position:-28px -28px;
+	right:0px;
+}
+.listWrap .raceBoxs{
+	width:3700px;
+	height:257px;
+	position:relative;
+}
+.listWrap .raceBoxs .raceList{
+	height:257px;
+	width:1190px;
+	float:left;
+	padding: 0 5px;
+}
+.listWrap .raceBoxs ul{
+	list-style: none;
+}
+.listWrap .raceBoxs ul li{
+	float:left;
+	width:198px;
+	padding:20px 0 10px 0;
+	display: inline;
+	position:relative;
+	z-index:1;
+}
+.listWrap .raceBoxs ul li a:hover{
+	color:red;
+	text-decoration:underline;
+}
+.listWrap .raceBoxs ul li strong{
+	color:#f00;
+	font-weight:normal;
+}
+section{
+	margin-top:10px!important;
+	margin-bottom:100px!important;
+}
+#whiteWine{
+	background:#fff;
+	position:relative;
+	z-index:1;
+}
+#whiteWine .titlebox{
+	height:40px;
+	line-height:40px;
+	background:#f9f9f9;
+	padding:0 3px;
+}
+#whiteWine .comtitle{
+	float:left;
+	font-size:0;
+}
+#whiteWine .rightMenu{
+	float:right;
+	margin-left:50px;
+	display: inline;
+	color:#999;
+}
+#whiteWine .comtitle i{
+	width:28px;
+	height:29px;
+	display: inline-block;
+	vertical-align: middle;
+	overflow: hidden;
+	font-family: Arial;
+	color:#fff;
+	font-size:18px;
+	text-align: center;
+	line-height: 29px;
+	font-style:normal;
+}
+#whiteWine .comtitle .newIndexIcon{
+	background-image: url(http://misc.jiuxian.com/img/newIndexImg/newIndexIcon-24.png);
+	background-position: 0 -95px;
+}
+#whiteWine .comtitle span{
+	display: inline-block;
+	vertical-align: middle;
+	color:#333;
+	font-size:17px;
+	margin-left:10px;
+	font-family: "å¾®è½¯é›…é»‘";
+}
+#whiteWine .rightMenu a{
+	padding:0 7px;
+	color:#999;
+}
+#whiteWine .rightMenu a:not(:last-child):hover{
+	color:#f00;
+	text-decoration: underline;
+}
+#whiteWine .rightMenu a:last-child{
+	padding:4px 7px;
+	color:#fff;
+	background:#d43d4e;
+	height:21px;
+	border-radius:2px;
+}
+#whiteWine .rightMenu span{
+	font-family: "å®‹ä½“";
+	padding-left:5px;
+	color:#fff;
+}
+#whiteWine .spiritWrap{
+	border-left:1px solid #ececec;
+	border-right:1px solid #ececec;
+	border-bottom:1px solid #ececec;
+	border-top:2px solid #c94b56;
+	height:485px;
+}
+#whiteWine .spiritWrap .bannerSlier{
+	height:485px;
+	width:210px;
+	position:relative;
+	overflow: hidden;
+	float:left;
+	z-index: 3;
+}
+#whiteWine .spiritWrap .imgBox{
+	height:485px;
+	/*overflow: hidden;*/
+}
+#whiteWine .spiritWrap .bigUl{
+	width:5000px;
+	list-style: none;
+	margin-left:0px;
+}
+#whiteWine .spiritWrap .bigUl.transition{
+	transition:all .5s linear;
+}
+#whiteWine .spiritWrap .bigUl li{
+	float:left;
+	height:485px;
+	width:210px;
+}
+.sliderBox .btnBox{
+	bottom:10px;
+	height:20px;
+	left:0;
+	overflow:hidden;
+	position: absolute;
+	text-align: center;
+	width: 100%;
+	z-index:2;
+}
+#whiteWine .spiritWrap .btnBg{
+	display: inline-block;
+	height:13px;
+	font-size: 0;
+}
+#whiteWine .spiritWrap .btnBg em{
+	background:#fff;
+	border-radius: 50%;
+	display: inline-block;
+	height:13px;
+	margin:0 4px;
+	overflow: hidden;
+	width:13px;
+	cursor:pointer;
+}
+#whiteWine .spiritWrap .btnBg .on{
+	background:#ff0;
+}
+#whiteWine .spiritList{
+	width:988px;
+	float:right;
+	height:485px;
+	overflow: hidden;
+	position:relative;
+}
+#whiteWine .spiritList li{
+	float:left;
+	width:196px;
+	height:232px;
+	border-bottom:1px solid #ececec;
+	border-left:1px solid #ececec;
+	position: relative;
+	padding-top:10px;
+	z-index:1;
+}
+#whiteWine .spiritList .spiritListPic{
+	width:160px;
+	margin:0 auto;
+	position:relative;
+	z-index: 1;
+}
+#whiteWine .spiritList .spiritListTit{
+	width:160px;
+	padding:0 18px;
+	height:36px;
+	overflow: hidden;
+	margin-top:5px;
+}
+#whiteWine .spiritList .spiritListPrice{
+	width:178px;
+	padding:0 0 0 18px;
+	height:18px;
+	overflow: hidden;
+	line-height: 18px;
+	white-space:nowrap;
+}
+#whiteWine .spiritList .spiritListPrice strong{
+	font-size: 12px;
+	font-weight:normal;
+	font-family: '微软雅黑';
+	color:rgb(205,1,0);
+}
+#whiteWine .spiritList .spiritListTit a{
+	width:100%;
+	display: block;
+	height:18px;
+	line-height: 18px;
+	font-size:12px;
+}
+#whiteWine .spiritList .spiritListTit a:hover{
+	color:red;
+	text-decoration:underline;
+}
+
+
+
+
+
+
+
+
+
+

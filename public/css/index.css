@@ -1047,6 +1047,118 @@ section{
 	color:red;
 	text-decoration:underline;
 }
+#whiteWine .topTenWrap{
+	height:161px;
+	border-left:1px solid #ececec;
+	border-right:1px solid #ececec;
+	border-bottom:1px solid #ececec;
+}
+#whiteWine .topTenWrap .hotWordBox{
+	float: left;
+	width:186px;
+	border-right:1px solid #ececec;
+	background:#f9f9f9;
+	height:131px;
+	padding:20px 10px 10px 14px;
+}
+#whiteWine .topTenWrap .hotWordBox ul{
+	list-style: none;
+}
+#whiteWine .topTenWrap .hotWordBox li{
+	width:186px;
+	height:60px;
+	font-family: 微软雅黑;
+}
+#whiteWine .topTenWrap .hotWordBox li h3{
+	font-weight:bold;
+	padding-right:5px;
+	font-size:0;
+}
+#whiteWine .topTenWrap .hotWordBox li span{
+	color:#c00;
+	margin-left:8px;
+}
+#whiteWine .topTenWrap .hotWordBox li p{
+	padding-left: 8px;
+	width:178px;
+	height:36px;
+	line-height: 18px;
+	overflow: hidden;
+}
+#whiteWine .topTenWrap .hotWordBox li a{
+	font-size:12px;
+	display: block;
+	width:48px;
+	height:18px;
+	line-height: 18px;
+	overflow: hidden;
+	float:left;
+	margin-left:5px;
+}
+#whiteWine .dandu a:not(:first-child){
+	margin-left:5px;
+}
+#whiteWine .topTenWrap .hotWordBox li i{
+	width:3px;
+	height:3px;
+	display: inline-block;
+	vertical-align: middle;
+	background:#d02229;
+	overflow: hidden;
+	margin-top:-12px;
+}
+#whiteWine .topTenBox{
+	width:985px;
+	float: right;
+	height:162px;
+}
+#whiteWine .topTenBox .topTenNavBox{
+	height:32px;
+	line-height: 32px;
+	padding:0 12px;
+}
+#whiteWine .topTenBox .topTenNavBox h3{
+	float: left;
+	font-size:0;
+}
+#whiteWine .topTenBox .topTenNavBox .newIndexIcon{
+	background-image:url(http://misc.jiuxian.com/img/newIndexImg/newIndexIcon-24.png);
+	background-position:-24px 0;
+	display: inline-block;
+	width: 11px;
+	height:13px;
+	overflow: hidden;
+	vertical-align: middle;
+}
+#whiteWine .topTenBox .topTenNavBox span{
+	font-size:12px;
+	color:#bd7833;
+	display: inline-block;
+	margin-left: 5px;
+	vertical-align: middle;
+}
+#whiteWine .topTenBox .topTenNavBox .topTenNav{
+	float: right;
+	height:32px;
+}
+#whiteWine .topTenBox .topTenNav a{
+	font-size: 12px;
+	height:32px;
+	line-height: 32px;
+	padding:0 10px;
+	display: block;
+	float: left;
+	color:#666;
+}
+#whiteWine .topTenBox .topTenNav span{
+	float: left;
+	display: block;
+	color:#ccc;
+}
+#whiteWine .topTenBox .topTenNav a.active{
+	color:#c00;
+}
+
 
 
 

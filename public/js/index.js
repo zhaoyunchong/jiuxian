@@ -434,6 +434,13 @@ $('.indexTabRight .indexTabNewNav ul li').mouseenter(function(){
 	})
 })();
 
+//一楼主题下面部分 ,标签页效果
+$(function(){
+	$('#whiteWine .topTenBox .topTenNav').on('mouseenter','a',function(){
+		$(this).addClass('active').siblings().removeClass('active');
+	})
+})
+
 
 
 

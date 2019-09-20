@@ -864,7 +864,6 @@ font-weight: bold;
 }
 section{
 	margin-top:10px!important;
-	margin-bottom:100px!important;
 }
 #whiteWine{
 	background:#fff;
@@ -1008,6 +1007,7 @@ section{
 	position: relative;
 	padding-top:10px;
 	z-index:1;
+	list-style: none;
 }
 #whiteWine .spiritList .spiritListPic{
 	width:160px;
@@ -1157,6 +1157,134 @@ section{
 }
 #whiteWine .topTenBox .topTenNav a.active{
 	color:#c00;
+}
+#whiteWine .topTenBox .topTenNav .topTenConWrap{
+	width:985px;
+	height:102px;
+	padding:10px 0 15px 0;
+	overflow: hidden;
+	position:relative;
+}
+#whiteWine .topTenBox .topTenNav .topTenCon{
+	width:985px;
+	height:102px;
+	overflow: hidden;
+}
+#whiteWine .topTenBox .topTenNav .topTenCon ul{
+	list-style: none;
+}
+#whiteWine .topTenCon li{
+	float:left;
+	width:190px;
+	margin-top: 10px;
+	padding-right:7px;
+	list-style: none;
+}
+#whiteWine .topTenCon li .topTenPic{
+	float: left;
+}
+#whiteWine .topTenCon li .topTenTitBox{
+	float:left;
+	width:80px;
+	padding-top:5px;
+}
+#whiteWine .topTenCon li .topTenTitBox .topTenTit{
+	width:80px;
+	height:36px;
+	line-height: 18px;
+	font-family: 宋体;
+	overflow: hidden;
+}
+#whiteWine .topTenCon li .topTenTitBox .topTenPrice{
+	font-size: 16px;
+	height:18px;
+	line-height: 18px;
+	margin-top: 5px;
+	width: 80px;
+	font-family: 微软雅黑;
+	overflow: hidden;
+	background:#fff;
+}
+#whiteWine .topTenCon li .topTenTitBox .topTenPrice strong{
+	color:rgb(204,0,0);
+}
+#whiteWine .topTenCon li a:hover{
+	color: #f00;
+	text-decoration:underline;
+}
+#whiteWine .topTenCon .clearFix+.clearFix{
+	display: none;
+}
+
+/*底部样式*/
+.contentThree{
+	height:500px;
+	margin-top:10px;
+	position: relative;
+}
+.contentThree .titieBox li{
+	float: left;
+	font-size: 16px;
+	width:90px;
+	height:43px;
+	line-height: 43px;
+	text-align:center;
+	margin-right:15px;
+	cursor:pointer;
+	font-family: "å¾®è½¯é›…é»‘";
+	overflow: hidden;
+}
+.contentThree .titieBox li.active{
+	color:#dd102e;
+}
+.contentThree .titleSlider{
+	border-bottom:2px solid #dd102e;
+	height:7px;
+	position: absolute;
+	width:90px;
+	top:36px;
+	text-align: center;
+	z-index: 1;
+	overflow: hidden;
+}
+.contentThree .titleSlider b{
+	border:7.5px solid #dd102e;
+	border-style: dashed dashed solid;
+	height:0;
+	font-size:0;
+	width: 0;
+	display: inline-block;
+	/*margin-top: -10px;*/
+}
+.contentThree .logbox{
+	position: relative;
+	height:274px;
+	border:1px solid #ededed;
+	background:#fff;
+	padding:15px;
+	overflow: hidden;
+}
+.contentThree .logbox .logAll{
+	position: relative;
+	height:274px;
+}
+.contentThree .logbox .logAll .logFirst{
+	width:1170px;
+	height:274px;
+	overflow: hidden;
+}
+.contentThree .logbox .logAll ul{
+	width:1185px;
+	position: relative;
+	list-style: none;
+}
+.contentThree .logbox .logAll li{
+	float: left;
+	width:180px;
+	height:80px;
+	position: relative;
+	margin:0 17px 17px 0;
+	overflow: hidden;
 }
 
 

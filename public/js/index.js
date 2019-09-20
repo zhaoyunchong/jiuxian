@@ -438,8 +438,29 @@ $('.indexTabRight .indexTabNewNav ul li').mouseenter(function(){
 $(function(){
 	$('#whiteWine .topTenBox .topTenNav').on('mouseenter','a',function(){
 		$(this).addClass('active').siblings().removeClass('active');
+		var i=$('#whiteWine .topTenBox .topTenNav a').index($(this));
+		$('#whiteWine .topTenCon .clearFix').eq(i).css('display','block').siblings().css('display','none');
 	})
+	// 酒仙底部
+	$('.contentThree .titieBox ul').on('mouseenter','li',function(){
+		$(this).addClass('active').siblings().removeClass('active');
+		var i=$('.contentThree .titieBox li').index($(this));
+		// alert(i);
+		$('.contentThree .titleSlider').stop().animate({'left':`${i*105}px`},500)
+	});
+	//酒仙底部鼠标移动图片特效
+	$('.contentThree .logbox .logAll img').hover(
+		function(){
+			$(this).stop().animate({'margin-left':'-100px'},500);
+		},
+		function(){
+			$(this).stop().animate({'margin-left':'0px'},500);
+		}
+	)
 })
+
+
+
 
 
 

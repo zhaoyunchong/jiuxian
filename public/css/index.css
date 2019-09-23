@@ -1286,6 +1286,225 @@ section{
 	margin:0 17px 17px 0;
 	overflow: hidden;
 }
+.contentThree .titleBox{
+	height:40px;
+	line-height: 40px;
+	background:#f9f9f9;
+	padding:0 3px;
+}
+.contentThree .jpTitle{
+	float: left;
+	padding-left: 2px;
+}
+.contentThree .jpTitle i{
+	display: inline-block;
+	width: 7px;height:18px;
+	background:#ff9000;
+	overflow: hidden;
+	vertical-align: middle;
+}
+.contentThree .jpTitle span{
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 17px;
+	color:rgb(51,51,51);
+	font-family: 微软雅黑;
+	margin-left: 10px;
+}
+.contentThree .goods_menu{
+	border:1px solid #ececec;
+	background:#fff;
+	padding:4px 4px 0 4px;
+}
+.contentThree .goods_menu .goods_mnudl{
+	overflow: hidden;
+	zoom:1;
+	width:1190px;
+}
+.contentThree .goods_menu .goods_mnudtit{
+	float: left;
+	border:4px solid #fff;
+	overflow:hidden;
+	width: 92px;
+	height:60px;
+	background: url(http://misc.jiuxian.com/images/newHomePageImg/1.jpg) no-repeat center;
+}
+.contentThree .goods_menu .goods_mnudd1{
+	padding:5px 8px;
+	height:50px;
+	float:left;
+	line-height: 25px;
+}
+.contentThree .goods_menu .goods_mnudd1 a{
+	padding:0 8px;
+}
+.contentThree .goods_menu .tuijian{
+	width:48%;
+	float: left;
+}
+
+/*酒仙底部*/
+.footer{
+	padding-top:30px;
+}
+.footer	.footerTopBox{
+	background:#333;
+	margin-top:20px;
+}
+.footer	.footerTopBox .footerTop{
+	width: 1200px;
+	margin:0 auto;
+	height:84px;
+	border-bottom:1px solid #494949;
+}
+.footer	.footerTopBox .footerTop .footerContact{
+	float: left;
+	height:40px;
+	line-height: 40px;
+	font-family: 微软雅黑;
+	padding:22px 0;
+}
+.footer	.footerTopBox .footerTop .footerContact i{
+	display: inline-block;
+	background: url(http://misc.jiuxian.com/img/newIndexImg/public-24.png) no-repeat;
+	width:40px;
+	height:40px;
+	background-position:-144px -22px;
+	margin-right:18px;
+	vertical-align: middle;
+}
+.footer	.footerTopBox .footerTop .footerContact b{
+	font-size: 24px;
+	color:#c00;
+	margin-right:25px;
+	vertical-align: middle;
+}
+.footer	.footerTopBox .footerTop .footerContact span{
+	font-size:14px;
+	color:#fff;
+	margin-right:8px;
+}
+.footer	.footerTopBox .footerTop .footerTopRight{
+	float: right;
+	height:32px;
+	padding:26px 0;
+}
+.footer .footerTop .footerTopRight .ftRight-tit{
+	float: left;
+	line-height: 25px;
+	color:#fff;
+	font-family: 微软雅黑;
+	margin-right:10px;
+	margin-top:3px;
+}
+.footer .footerTop .footerTopRight .ftRight-form{
+	float: left;
+	width:240px;
+	height:30px;
+	border:1px solid #494949;
+	position:relative;
+	z-index: 99;
+}
+.footer .footerTop .footerTopRight .ftRight-form input{
+	width: 190px;
+	height:30px;
+	line-height: 30px;
+	padding:0 6px;
+	background:0 6px;
+	border:0;
+	float: left;
+	color:#fff;
+	outline:0;
+}
+.footer .footerTop .footerTopRight .ftRight-form span{
+	display: inline-block;
+	height: 30px;
+	line-height: 30px;
+	color:#999;
+	position: absolute;
+	left:6px;
+	top:0;
+}
+.footer .footerTop .footerTopRight .ftRight-form i{
+	display: inline-block;
+	width: 22px;
+	height: 18px;
+	background:url(http://misc.jiuxian.com/img/newIndexImg/public-24.png) no-repeat;
+	background-position: -133px 0;
+	margin:6px 0 0 10px;
+	cursor:pointer;
+	float: left;
+}
+.footer .footerServices{
+	padding:30px 0 40px;
+	overflow: hidden;
+}
+.footer .footerTop .footerServices ul{
+	list-style: none;
+}
+.footer .footerServices li{
+	width:158px;
+	float: left;
+	display: inline;
+	margin-left: 10px;
+}
+.footer .footerTop .footerServices li h3{
+	font-weight:normal;
+	height:26px;
+	line-height: 26px;
+	padding:5px 0;
+}
+.footer .footerServices li>h3>i{
+	background:url(http://misc.jiuxian.com/img/newIndexImg/public-24.png) no-repeat;
+	background-position: 0 -131px;
+	display: inline-block;
+	width: 26px;
+	height: 26px;
+	margin-right: 9px;
+	float: left;
+}
+.footer .footerServices li>h3>span{
+	width: 123px;
+	display: inline-block;
+	font-size: 14px;
+	color: #fff;
+	font-family: 微软雅黑;
+	float: left;
+	white-space: nowrap;
+	overflow: hidden;
+}
+.footer .footerServices li p+p{
+	height:26px;
+	line-height: 26px;
+	padding-left: 35px;
+	overflow: hidden;
+	white-space: nowrap;
+}
+.footer .footerServices li>p>a{
+	color:#ccc;
+}
+.footer .footerServices .sinaMbCom{
+	margin-bottom:20px;
+}
+.footer .footerServices .sinaMbCom a{
+	color:#ccc;
+}
+.footer .footerServices .sinaMbCom i{
+	background-image:url(http://misc.jiuxian.com/img/newIndexImg/public-24.png);
+	background-repeat: no-repeat;
+	background-position: -140px -74px;
+	display: inline-block;
+	width: 28px;
+	height: 28px;
+	margin-right: 9px;
+	float: left;
+	cursor:pointer;
+}
+.footer .footerServices .sinaMbCom .wei{
+	background-position: -103px -74px;
+}
+
+
 
 
 
